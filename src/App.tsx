@@ -6,7 +6,7 @@ function App() {
   return (
    <main className="">
     <Nav />
-      <h1>Th</h1>
+      <h1></h1>
     <Footer/>
    </main>
   
