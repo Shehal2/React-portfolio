@@ -1,10 +1,14 @@
+import Nav from './componnent/nav';
+import Footer from './componnent/fotter';
 
 function App() {
   
   return (
-    <>
-    <h1>Hello</h1>
-    </>
+   <main className="">
+    <Nav />
+      <h1>Th</h1>
+    <Footer/>
+   </main>
   
   )
 }
