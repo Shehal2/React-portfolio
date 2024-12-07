@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import Nav from './componnent/nav';
 import Footer from './componnent/fotter';
+import Socialmedia from './componnent/Social media/socialmedia';
 
 function App() {
   // Create a ref for the image section
@@ -26,14 +27,19 @@ function App() {
         
         {/* Introductory Text */}
         <div className="flex flex-col items-center md:items-start gap-5 text-center md:text-left">
-          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold">
-            Hi, I'm Theekshana
-          </h1>
-          <p className="text-base md:text-lg lg:text-xl text-gray-500 leading-relaxed">
-            I'm a Software Developer, working towards creating software that makes life easier and more meaningful.
-          </p>
-        </div>
+  <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold">
+    Hi, I'm Theekshana
+  </h1>
+  <p className="text-base md:text-lg lg:text-xl text-gray-500 leading-relaxed mt-4">
+    I'm a Software Developer, working towards creating software that makes life easier and more meaningful.
+  </p>
+  <div className="mt-5 md:mt-6"> {/* Adds spacing between the text and the social media section */}
+    <Socialmedia />
+  </div>
+</div>
+
       </header>
+    
 
       {/* Images Section */}
       <section
