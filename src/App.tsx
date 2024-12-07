@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import Nav from './componnent/nav';
-import Footer from './componnent/fotter';
+import Nav from './componnent/Navbar/nav';
+import Footer from './componnent/Fotter/fotter';
 import Socialmedia from './componnent/Social media/socialmedia';
 
 function App() {
