@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import Nav from './componnent/Navbar/nav';
 import Footer from './componnent/Fotter/fotter';
+import Aboutme from './componnent/About me/Aboutme';
 import Socialmedia from './componnent/Social media/socialmedia';
 
 function App() {
@@ -35,10 +36,12 @@ function App() {
   </p>
   <div className="mt-5 md:mt-6"> {/* Adds spacing between the text and the social media section */}
     <Socialmedia />
+    
   </div>
 </div>
 
       </header>
+      <Aboutme/>
     
 
       {/* Images Section */}
