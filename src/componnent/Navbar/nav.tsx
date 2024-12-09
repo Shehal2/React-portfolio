@@ -8,8 +8,8 @@ const Nav = ({ onProjectsClick }) => {
   };
 
   return (
-    <nav className="bg-blue-900 fixed w-full z-20 top-0 start-0 border-b border-blue-700 rounded-3xl">
-      <div className="max-w-screen-xl mx-16 flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-blue-900 fixed w-full z-20 top-0 start-0 border-b border-blue-700 rounded-3xl md:px-4">
+      <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4 md:p-0">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Theekshana</span>
         </a>
@@ -17,7 +17,7 @@ const Nav = ({ onProjectsClick }) => {
           <button
             type="button"
             onClick={() => window.open('https://drive.google.com/file/d/1kl8-bjhn3Jhdk5Tsxj4g6vMP8N_HtwMj/view?usp=sharing', '_blank')}
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:mr-4"
           >
             Download CV
           </button>
@@ -41,13 +41,13 @@ const Nav = ({ onProjectsClick }) => {
           id="navbar-sticky"
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-blue-700 rounded-lg bg-blue-800 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-blue-900 dark:bg-blue-900">
-            <li>
+            <li className="md:mr-4">
               <a href="#" className="block py-2 px-3 text-white rounded hover:bg-blue-700">Home</a>
             </li>
-            <li>
+            <li className="md:mr-4">
               <a href="#" className="block py-2 px-3 text-white rounded hover:bg-blue-700">About</a>
             </li>
-            <li>
+            <li className="md:mr-4">
               <button
                 onClick={onProjectsClick}
                 className="block py-2 px-3 text-white rounded hover:bg-blue-700 md:hover:bg-transparent"
@@ -55,7 +55,7 @@ const Nav = ({ onProjectsClick }) => {
                 Projects
               </button>
             </li>
-            <li>
+            <li className="md:mr-4">
               <a href="#" className="block py-2 px-3 text-white rounded hover:bg-blue-700">Contact Me</a>
             </li>
             <li>
