@@ -4,6 +4,7 @@ import Footer from './componnent/Fotter/fotter';
 import Aboutme from './componnent/About me/Aboutme';
 import Socialmedia from './componnent/Social media/socialmedia';
 import css from './App.css'
+import Technologies from './componnent/Technologies/Technologies'
 
 function App() {
   // Create a ref for the image section
@@ -41,7 +42,7 @@ function App() {
   <div className="mt-5 md:mt-6"> {/* Adds spacing between the text and the social media section */}
     <Socialmedia />
 
-    
+   
     
   </div>
 </div>
@@ -265,11 +266,12 @@ function App() {
   </div>
 </div>
 
-
+ 
       </section>
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
-       Use Technologies
+       Technologies & Tools
       </h2>
+      <Technologies/>
 
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
        Contact Me
