@@ -3,6 +3,7 @@ import Nav from './componnent/Navbar/nav';
 import Footer from './componnent/Fotter/fotter';
 import Aboutme from './componnent/About me/Aboutme';
 import Socialmedia from './componnent/Social media/socialmedia';
+import css from './App.css'
 
 function App() {
   // Create a ref for the image section
@@ -12,6 +13,8 @@ function App() {
   const scrollToImages = () => {
     imageSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  
 
   return (
     <main className="">
@@ -28,21 +31,30 @@ function App() {
         
         {/* Introductory Text */}
         <div className="flex flex-col items-center md:items-start gap-5 text-center md:text-left">
-  <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold">
+  <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-bold animate-typewriter">
     Hi, I'm Theekshana
-  </h1>
+  </h4>
+
   <p className="text-base md:text-lg lg:text-xl text-gray-500 leading-relaxed mt-4">
     I'm a Software Developer, working towards creating software that makes life easier and more meaningful.
   </p>
   <div className="mt-5 md:mt-6"> {/* Adds spacing between the text and the social media section */}
     <Socialmedia />
+
+    
     
   </div>
 </div>
 
       </header>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
+        About Me
+      </h2>
+<br></br>
       <Aboutme/>
-    
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
+       Projects
+      </h2>
 
       {/* Images Section */}
       <section
@@ -255,6 +267,13 @@ function App() {
 
 
       </section>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
+       Use Technologies
+      </h2>
+
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
+       Contact Me
+      </h2>
 
       <Footer />
     </main>

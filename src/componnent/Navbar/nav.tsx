@@ -56,7 +56,10 @@ const Nav = ({ onProjectsClick }) => {
               </button>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-white rounded hover:bg-blue-700">Contact</a>
+              <a href="#" className="block py-2 px-3 text-white rounded hover:bg-blue-700">Contact Me</a>
+            </li>
+            <li>
+              <a href="#" className="block py-2 px-3 text-white rounded hover:bg-blue-700">Use Technologies</a>
             </li>
           </ul>
         </div>
