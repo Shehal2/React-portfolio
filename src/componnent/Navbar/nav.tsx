@@ -8,8 +8,8 @@ interface NavItem {
 const navItems: NavItem[] = [
   { label: 'Home', href: '#' },
   { label: 'About', href: '#' },
-  { label: 'Services', href: '#' },
-  { label: 'Contact', href: '#' },
+  { label: 'Projects', href: '#' },
+  { label: 'Contact Me', href: '#' },
   { label: 'Tools & Technologies', href: '#' },
 ];
 

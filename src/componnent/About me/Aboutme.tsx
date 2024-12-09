@@ -13,15 +13,15 @@ interface PersonalDetails {
 }
 
 const AboutMe = () => {
-    const [name, setName] = useState('John Doe');
+    const [name, setName] = useState('Theekshana Shehal');
     const [title, setTitle] = useState('Software Engineer');
     const [description, setDescription] = useState('Highly motivated and experienced software engineer with a passion for building scalable and efficient applications.');
     const [socialMedia, setSocialMedia] = useState<SocialMedia[]>([]);
     const [personalDetails, setPersonalDetails] = useState<PersonalDetails>({
-        age: 30,
+        age: 23,
         location: 'New York',
-        email: 'johndoe@example.com',
-        phone: '123-456-7890',
+        email: 'shehaltheekshana@gmail.com',
+        phone: '0760660295',
     });
 
     return (
