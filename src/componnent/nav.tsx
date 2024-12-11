@@ -7,10 +7,10 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: 'Home', href: '#' },
-  { label: 'About', href: '#' },
-  { label: 'Projects', href: '#' },
-  { label: 'Contact Me', href: '#' },
-  { label: 'Tools & Technologies', href: '#' },
+  { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#project' },
+  { label: 'Contact Me', href: '#contact' },
+  { label: 'Tools & Technologies', href: '#tools' },
 ];
 
 const Navbar = () => {

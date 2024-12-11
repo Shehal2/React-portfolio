@@ -29,6 +29,7 @@ const AboutMe = () => {
     });
 
     return (
+        <section id="about" className="pb-10">
         <div className="flex flex-col items-center justify-center mb-10 gap-4">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
                 About Me
@@ -74,6 +75,7 @@ const AboutMe = () => {
                 </div>
             </div>
         </div>
+         </section>
     );
 };
 
