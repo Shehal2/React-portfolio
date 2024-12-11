@@ -45,18 +45,15 @@ function App() {
       </p>
   <div className="mt-5 md:mt-6"> {/* Adds spacing between the text and the social media section */}
     <Socialmedia />
-  
+
   </div>
   </div>
       </header>
-      
       <Aboutme/>
       <Project/>
       <Technologies/>
-     
       <Contact />
       <Footer />
-     
     </main>
   );
 }
