@@ -10,7 +10,11 @@ import { SiJetbrains } from 'react-icons/si';
 
 const Technologies = () => {
     return (
+        
         <div className="pb-24">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
+       Technologies & Tools
+      </h2>
             <div className="flex flex-wrap items-center justify-center gap-4">
                 <div className="rounded-2xl p-4">
                     <RiReactjsLine className='text-7xl text-cyan-400'/>

@@ -43,17 +43,10 @@ function App() {
   </p>
   <div className="mt-5 md:mt-6"> {/* Adds spacing between the text and the social media section */}
     <Socialmedia />
-
-   
-    
   </div>
-</div>
-
+  </div>
       </header>
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
-        About Me
-      </h2>
-<br></br>
+     
       <Aboutme/>
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
        Projects
@@ -68,9 +61,7 @@ function App() {
       >
  
       </section>
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
-       Technologies & Tools
-      </h2>
+      
       <Technologies/>
   
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
