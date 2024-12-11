@@ -23,6 +23,7 @@ function App() {
 
   return (
     <main className="">
+      
       {/* Pass the scroll handler to the Nav component */}
       <Nav onProjectsClick={scrollToImages} />
 
