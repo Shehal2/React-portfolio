@@ -10,11 +10,11 @@ function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Phone</h3>
-            <p className="text-gray-600">(555) 555-5555</p>
+            <p className="text-gray-600">(76) 0660-295</p>
           </div>
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Email</h3>
-            <p className="text-gray-600">info@example.com</p>
+            <p className="text-gray-600">shehaltheekshana@gmail.com</p>
           </div>
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">LinkedIn</h3>
