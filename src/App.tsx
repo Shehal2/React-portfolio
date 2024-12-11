@@ -7,7 +7,7 @@ import css from './App.css'
 import Technologies from './componnent/Technologies'
 import Project from './componnent/Project';
 import Contact from './componnent/contact';
-import About from './componnent/about';
+import about from './componnent/about';
 
 
 
@@ -51,7 +51,11 @@ function App() {
   </div>
   </div>
       </header>
-     
+      <Aboutme/>
+      <Project/>
+      <Technologies/>
+      <Contact />
+      <Footer />
     </main>
   );
 }
