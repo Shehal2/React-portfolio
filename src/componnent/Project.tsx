@@ -15,7 +15,7 @@ const Project: React.FC = () => {
   const [projects, setProjects] = useState<ProjectState["projects"]>([
     {
       title: "Project 1",
-      description: "Group Project: Web-Based Hotel Reservation & Management System.",
+      description: "1 year Project: Web-Based Hotel Reservation & Management System.",
       githubLink: "https://github.com/your-repo-link",
       image: "src/images/64d62d1f-e51d-4b54-826f-73dfad3d36ee.jfif"
     },
@@ -27,13 +27,13 @@ const Project: React.FC = () => {
     },
     {
       title: "Project 3",
-      description: "Group Project: Web-Based Hotel Reservation & Management System.",
+      description: "Final Project: Web-Based Hotel Reservation & Management System.",
       githubLink: "https://github.com/your-repo-link",
       image: "src/images/64d62d1f-e51d-4b54-826f-73dfad3d36ee.jfif"
     },
     {
       title: "Project 4",
-      description: "Group Project: Web-Based Hotel Reservation & Management System.",
+      description: "Tic-Tac-Toe Game",
       githubLink: "https://github.com/your-repo-link",
       image: "src/images/64d62d1f-e51d-4b54-826f-73dfad3d36ee.jfif"
     },
