@@ -10,7 +10,7 @@ import { SiJetbrains } from 'react-icons/si';
 
 const Technologies = () => {
     return (
-        
+        <section id="tools" className="pb-10">
         <div className="pb-24">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
        Technologies & Tools
@@ -49,6 +49,7 @@ const Technologies = () => {
                 </div>
             </div>
         </div>  
+        </section>
     )
 }
 

@@ -52,7 +52,11 @@ const Project: React.FC = () => {
   ]);
 
   return (
+    <section id="project" className="pb-10">
     <div className="flex flex-wrap justify-center gap-4 p-4">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8 w-full">
+  Projects
+</h2>
       {projects.map((project, index) => (
         <div key={index} className="max-w-sm mx-auto bg-white rounded-lg shadow-md overflow-hidden">
           <img src={project.image} alt={project.title} className="w-full h-50 object-cover" />
@@ -84,6 +88,7 @@ const Project: React.FC = () => {
         </div>
       ))}
     </div>
+    </section>
   );
 };
 

@@ -6,6 +6,8 @@ import Socialmedia from './componnent/socialmedia';
 import css from './App.css'
 import Technologies from './componnent/Technologies'
 import Project from './componnent/Project';
+import Contact from './componnent/contact';
+
 
 
 function App() {
@@ -34,40 +36,25 @@ function App() {
         
         {/* Introductory Text */}
         <div className="flex flex-col items-center md:items-start gap-5 text-center md:text-left">
-  <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-bold animate-typewriter">
-    Hi, I'm Theekshana
-  </h4>
+      <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-bold animate-typewriter">
+        Hi, I'm Theekshana
+      </h4>
 
-  <p className="text-base md:text-lg lg:text-xl text-gray-500 leading-relaxed mt-4">
-    I'm a Software Developer, working towards creating software that makes life easier and more meaningful.
-  </p>
+      <p className="text-base md:text-lg lg:text-xl text-gray-500 leading-relaxed mt-4">
+      I'm a Software Developer, working towards creating software that makes life easier and more meaningful.
+      </p>
   <div className="mt-5 md:mt-6"> {/* Adds spacing between the text and the social media section */}
     <Socialmedia />
+  
   </div>
   </div>
       </header>
-     
-      <Aboutme/>
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
-       Projects
-      </h2>
-
-      <Project/>
-
-      {/* Images Section */}
-      <section
-        ref={imageSectionRef}
-        className="p-8 md:p-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto"
-      >
- 
-      </section>
       
+      <Aboutme/>
+      <Project/>
       <Technologies/>
-  
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-600 mb-8">
-        Contact Me
-      </h2>
-
+     
+      <Contact />
       <Footer />
      
     </main>
