@@ -9,7 +9,7 @@ function Contact() {
       </h2>
       <div className="bg-gray-100 p-8 rounded shadow-md">
         <div className="flex flex-wrap justify-center mb-8">
-          <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16 mx-auto mb-4"></div>
+         
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
           <div>
