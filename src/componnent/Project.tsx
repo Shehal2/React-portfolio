@@ -18,7 +18,7 @@ const Project: React.FC = () => {
   const [projects, setProjects] = useState<ProjectState["projects"]>([
     {
       title: "Project 1",
-      description: "1 year Project: Web-Based Hotel Reservation & Management System.",
+      description: "1 year Project: Library Management System.",
       githubLink: "https://github.com/your-repo-link",
       image: "src/images/64d62d1f-e51d-4b54-826f-73dfad3d36ee.jfif",
       imageView: [
@@ -39,7 +39,7 @@ const Project: React.FC = () => {
         "src/images/image2.jpg",
         "src/images/image3.jpg"
       ],
-      technologies: ["PHP", "Xampp Server", "Bootstrap", "CSS"]
+      technologies: ["PHP", "Xampp Server", "Bootstrap", "CSS","My SQL"]
     },
     {
       title: "Project 3",
@@ -65,6 +65,7 @@ const Project: React.FC = () => {
       ],
       technologies: ["Java"]
     },
+   
     {
       title: "Project 5",
       description: "Portfolio Website",
@@ -76,19 +77,8 @@ const Project: React.FC = () => {
         "src/images/image3.jpg"
       ],
       technologies: ["React", "Tailwind CSS", "TypeScript"]
-    },
-    {
-      title: "Project 6",
-      description: "Group Project: Web-Based Hotel Reservation & Management System.",
-      githubLink: "https://github.com/your-repo-link",
-      image: "src/images/64d62d1f-e51d-4b54-826f-73dfad3d36ee.jfif",
-      imageView: [
-        "src/images/image1.jpg",
-        "src/images/image2.jpg",
-        "src/images/image3.jpg"
-      ],
-      technologies: ["C#", "Microsoft Access Database"]
     }
+    
   ]);
 
   const [selectedImages, setSelectedImages] = useState<string[]>([]);

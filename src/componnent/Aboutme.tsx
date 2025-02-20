@@ -7,23 +7,23 @@ interface SocialMedia {
 
 interface PersonalDetails {
     age: number;
-    location: string;
+    education: string;
     email: string;
     phone: string;
 }
 
 const AboutMe = () => {
     const [name, setName] = useState('Theekshana Shehal');
-    const [title, setTitle] = useState('Software Engineer');
+    const [title, setTitle] = useState('Software Developer');
     const [description, setDescription] = useState('Highly motivated and experienced software engineer with a passion for building scalable and efficient applications.');
     const [socialMedia, setSocialMedia] = useState<SocialMedia[]>([
         { name: 'LinkedIn', link: 'https://www.linkedin.com/in/shehal/' },
         { name: 'GitHub', link: 'https://github.com/shehal/' },
-        { name: 'Twitter', link: 'https://twitter.com/shehal/' },
+        { name: 'Whatsapp', link: 'https://web.whatsapp.com/' },
     ]);
     const [personalDetails, setPersonalDetails] = useState<PersonalDetails>({
         age: 23,
-        location: 'New York',
+        education : 'Higher National Diploma',
         email: 'shehaltheekshana@gmail.com',
         phone: '0760660295',
     });
@@ -68,7 +68,7 @@ const AboutMe = () => {
                     <div className="flex flex-col mb-4">
                         <p className="text-lg text-gray-600 mb-2">Name: {name}</p>
                         <p className="text-lg text-gray-600 mb-2">Age: {personalDetails.age}</p>
-                        <p className="text-lg text-gray-600 mb-2">Location: {personalDetails.location}</p>
+                        <p className="text-lg text-gray-600 mb-2">ducation: {personalDetails.education}</p>
                         <p className="text-lg text-gray-600 mb-2">Email: {personalDetails.email}</p>
                         <p className="text-lg text-gray-600 mb-2">Phone: {personalDetails.phone}</p>
                     </div>

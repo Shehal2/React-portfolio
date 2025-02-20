@@ -81,7 +81,7 @@ const Socialmedia = () => {
             className="w-6 h-6 hover:opacity-80"
           />
         </a>
-      </div>
+      </div> 
     </div>
   );
 };
