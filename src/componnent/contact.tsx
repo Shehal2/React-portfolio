@@ -19,23 +19,23 @@ function Contact() {
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">LinkedIn</h3>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/theekshana-shehal-871506348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-700"
             >
-              linkedin.com/in/your-profile
+              linkedin.com/theekshana-shehal
             </a>
           </div>
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">GitHub</h3>
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/Shehal2"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-700"
             >
-              github.com/your-username
+              github.com/Shehal2
             </a>
           </div>
           <div>
